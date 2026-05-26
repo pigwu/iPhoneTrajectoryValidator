@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+offline_calibration_output/
+temp_*/
+dist/
+build/
+*.spec
+.DS_Store
