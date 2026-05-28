@@ -152,6 +152,11 @@ You do not need to reuse robot transforms unless your production task needs robo
 
 Experiments showed that ARKit scale is already consistent enough for this validation setup. Fitting scale can reduce error on one sample but may overfit the capture. This tool therefore fixes `scale_factor = 1.0` and evaluates the trajectory without scale fitting.
 
+## Related Projects
+
+- [ARPoseStreamer](https://github.com/pigwu/ARPoseStreamer): the iPhone ARKit app for pose streaming, local recording, HTTP upload, and integrated desktop visualization.
+- [iPhone UDP Packet Loss Monitor](https://github.com/pigwu/iPhoneUDPPacketLossMonitor): a standalone desktop dashboard for checking UDP packet loss, FPS, jitter, latency, duplicates, and out-of-order packets from the iPhone stream.
+
 ## License
 
 MIT
